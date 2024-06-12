@@ -1,9 +1,6 @@
 [submodule "nextcloud-vite-config"]
 	path = nextcloud-vite-config
 	url = https://github.com/NikolaRusakov/nextcloud-vite-config
-[submodule "app-tutorial"]
-	path = app-tutorial
-	url = https://github.com/NikolaRusakov/app-tutorial
 [submodule "notestutorial"]
 	path = notestutorial
 	url = https://github.com/NikolaRusakov/app-tutorial
