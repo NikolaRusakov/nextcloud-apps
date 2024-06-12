@@ -4,3 +4,6 @@
 [submodule "app-tutorial"]
 	path = app-tutorial
 	url = https://github.com/NikolaRusakov/app-tutorial
+[submodule "notestutorial"]
+	path = notestutorial
+	url = https://github.com/NikolaRusakov/app-tutorial
