@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "jetpack-io.devbox",
+        "ms-vscode.remote-explorer",
+        "redhat.vscode-yaml",
+        "vscodevim.vim",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode-remote.remote-ssh",
+        "prisma.prisma",
+        "esbenp.prettier-vscode",
+        "azemoh.one-monokai",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-toolsai.jupyter-keymap"
+    ]
+}

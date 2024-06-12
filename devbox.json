@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
+  "packages": [
+    "php@latest",
+    "php83Packages.composer@latest",
+    "mongodb-tools@latest",
+    "nodejs@latest"
+  ],
+  "includes": ["plugin:php"],
+  "shell": {
+    "scripts": {
+      "serve": [
+        "docker cp notestutorial/ 7dfef41c474d:/var/www/html/apps/",
+        "docker exec 7dfef41c474d chown -R www-data:www-data /var/www/html/apps/notestutorial",
+        "docker exec 7dfef41c474d bash -c 'cd /var/www/html/apps/notestutorial && make composer'"
+      ],
+      "run:php": ["cd php", "php spark serve"],
+      "run:all": ["npm run start:all"],
+      "test": ["echo \"Error: no test specified\" && exit 1"]
+    }
+  }
+}
